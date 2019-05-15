@@ -1,20 +1,46 @@
 {
-    "places": [
-        {
-            "id": 1,
-            "name": "Italy",
-            "visa_required": false
-        },
-        {
-            "id": 2,
-            "name": "Switzerland",
-            "visa_required": true
-        },
-        {
-            "id": 3,
-            "name": "France",
-            "visa_required": false
-        }
-    ],
-    "interests": []
+  "places": [
+    {
+      "id": 1,
+      "name": "Italy",
+      "visa_required": false
+    },
+    {
+      "id": 2,
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
+    }
+  ],
+  "interests": [
+    {
+      "id": 1,
+      "placeId": 1,
+      "name": "Trevi Fountain",
+      "description": "Aqueduct-fed rococo fountain, designed by Nicola Salvi & completed in 1762, with sculpted figures.",
+      "cost": 0.0,
+      "review": "A very busy but lively place. During the day time its very difficult to find a perfect place to take photographs because of lots of tourists around. Like most of European architecture, it's amazingly beautiful and detailed. Lots of restaurants and bars around and one never feels bored around this amazing place."
+    },
+
+    {
+      "id": 2,
+      "placeId": 2,
+      "name": "Pilatus",
+      "description": "Mountain peak with a restaurant, hotel & sweeping views reached by cable cars, gondolas & a railway.",
+      "cost": 72.0,
+      "review": "Breathe taking  mountain.  Easy transportation to reach . Best view with such beautiful rainy weather. Good coffee shop at the top."
+    },
+    {
+      "id": 3,
+      "placeId": 3,
+      "name": "Eiffel Tower",
+      "description": "Gustave Eiffel's iconic, wrought-iron 1889 tower, with steps and elevators to observation decks.",
+      "cost": 0.0,
+      "review": "Really nice view from the top. Quite busy and crowded. A pretty long wait and would recommend going early in the morning so the line won’t be as long. The tower looks beautiful at night with the lights. The experience was extraordinary and if you like heights come here!"
+    }
+  ]
 }
